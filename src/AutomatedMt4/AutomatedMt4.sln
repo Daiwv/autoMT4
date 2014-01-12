@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomatedMt4", "AutomatedMt4\AutomatedMt4.csproj", "{22FC28EB-830A-41CD-BC56-54BD40DCF4E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomatedMt4.DataAccess", "AutomatedMt4.DataAccess\AutomatedMt4.DataAccess.csproj", "{8D0076C3-3615-4977-BA57-70AED3D80535}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomatedMt4.Experts", "AutomatedMt4.Experts\AutomatedMt4.Experts.csproj", "{1DB6F217-D977-4516-878E-D8BC723224D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomatedMt4.DI", "AutomatedMt4.DI\AutomatedMt4.DI.csproj", "{7F37A7E9-49C2-4C34-A6CB-39441069B041}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22FC28EB-830A-41CD-BC56-54BD40DCF4E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22FC28EB-830A-41CD-BC56-54BD40DCF4E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22FC28EB-830A-41CD-BC56-54BD40DCF4E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22FC28EB-830A-41CD-BC56-54BD40DCF4E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D0076C3-3615-4977-BA57-70AED3D80535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D0076C3-3615-4977-BA57-70AED3D80535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D0076C3-3615-4977-BA57-70AED3D80535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D0076C3-3615-4977-BA57-70AED3D80535}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DB6F217-D977-4516-878E-D8BC723224D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DB6F217-D977-4516-878E-D8BC723224D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DB6F217-D977-4516-878E-D8BC723224D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DB6F217-D977-4516-878E-D8BC723224D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F37A7E9-49C2-4C34-A6CB-39441069B041}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F37A7E9-49C2-4C34-A6CB-39441069B041}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F37A7E9-49C2-4C34-A6CB-39441069B041}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F37A7E9-49C2-4C34-A6CB-39441069B041}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
