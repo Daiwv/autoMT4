@@ -62,13 +62,16 @@
     <Compile Include="DataTests\BaseDataAccessTests.cs" />
     <Compile Include="DataTests\ExpertConfigurationTests.cs" />
     <Compile Include="DataTests\ExpertDetailsTests.cs" />
+    <Compile Include="DataTests\JobConfigurationDetailsTests.cs" />
     <Compile Include="DataTests\ModifyOrderDetailsTests.cs" />
     <Compile Include="Entities\ExpertConfiguration.cs" />
     <Compile Include="Entities\ExpertDetails.cs" />
+    <Compile Include="Entities\JobConfigurationDetails.cs" />
     <Compile Include="Entities\ModifyOrderDetails.cs" />
     <Compile Include="IRepository.cs" />
     <Compile Include="Mappings\ExpertConfigurationMap.cs" />
     <Compile Include="Mappings\ExpertDetailsMap.cs" />
+    <Compile Include="Mappings\JobConfigurationDetailsMap.cs" />
     <Compile Include="Mappings\ModifyOrderDetailsMap.cs" />
     <Compile Include="MySqlConfigurator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
