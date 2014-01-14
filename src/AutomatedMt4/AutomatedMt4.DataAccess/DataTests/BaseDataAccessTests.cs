@@ -6,7 +6,7 @@ namespace AutomatedMt4.DataAccess.DataTests
     [TestFixture, Parallelizable(TestScope.Self)]
     public abstract class BaseDataAccessTests<T> where T : Entity, new()
     {
-        private IRepository<T> _repository = new Repository<T>();
+		private IRepository<T> _repository = new Repository<T>();
 
         [Test]
         public void Save_ShouldSaveRecordToRepository()
