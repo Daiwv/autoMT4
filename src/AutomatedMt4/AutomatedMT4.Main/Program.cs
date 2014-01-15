@@ -1,7 +1,5 @@
 ﻿using AutomatedMT4.Scheduler;
-using AutomatedMT4.Scheduler.Jobs;
 using log4net;
-using Quartz;
 
 namespace AutomatedMT4.Main
 {
@@ -16,6 +14,7 @@ namespace AutomatedMT4.Main
             var server = new QuartzServer();
             server.Initialize();
             var scheduler = server.Scheduler;
+            var implementedJobs = new JobProvider().GetImplementedJobsTypes();
         }
     }
 }
