@@ -11,7 +11,7 @@ namespace AutomatedMT4.Main
         {
             log4net.Config.XmlConfigurator.Configure();
             _log.DebugFormat("Program was started");
-            new SchedulerManager().Start();
+            new QuartzServer().Initialize();
         }
     }
 }
