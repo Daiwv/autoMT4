@@ -10,6 +10,8 @@ namespace AutomatedMT4.Scheduler
         private ISchedulerFactory _schedulerFactory;
         private IScheduler _scheduler;
 
+        public IScheduler Scheduler { get { return _scheduler; } }
+
         public void Initialize()
         {
             _logger.DebugFormat("Start to Initialize instance of Quartz server");
