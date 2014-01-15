@@ -59,6 +59,7 @@
     <Reference Include="Common.Logging.Log4Net1211">
       <HintPath>..\packages\Common.Logging.Log4Net1211.2.1.2\lib\net40\Common.Logging.Log4Net1211.dll</HintPath>
     </Reference>
+    <Reference Include="FluentNHibernate, Version=1.4.0.0, Culture=neutral, PublicKeyToken=8aa435e3cb308880, processorArchitecture=MSIL" />
     <Reference Include="log4net, Version=1.2.11.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\log4net.1.2.11\lib\net40-full\log4net.dll</HintPath>
@@ -93,6 +94,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\AutomatedMt4.DataAccess\AutomatedMt4.DataAccess.csproj">
+      <Project>{8D0076C3-3615-4977-BA57-70AED3D80535}</Project>
+      <Name>AutomatedMt4.DataAccess</Name>
+    </ProjectReference>
     <ProjectReference Include="..\AutomatedMT4.Scheduler\AutomatedMT4.Scheduler.csproj">
       <Project>{583F7EED-4AAF-44D5-B67D-16AFCED5C24C}</Project>
       <Name>AutomatedMT4.Scheduler</Name>
