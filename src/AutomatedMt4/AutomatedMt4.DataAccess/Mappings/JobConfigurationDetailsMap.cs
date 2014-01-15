@@ -12,7 +12,7 @@ namespace AutomatedMt4.DataAccess.Mappings
 
 			Id(x => x.Id);
 			Map(x => x.Name);
-			Map(x => x.TriggerTime);
+			Map(x => x.TriggerTimeInSec);
 		}
 	}
 }
