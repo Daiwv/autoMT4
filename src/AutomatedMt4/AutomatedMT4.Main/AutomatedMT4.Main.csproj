@@ -53,6 +53,7 @@
     <StartupObject>AutomatedMT4.Main.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Autofac, Version=3.0.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL" />
     <Reference Include="Common.Logging, Version=2.1.2.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
       <HintPath>..\packages\Common.Logging.2.1.2\lib\net40\Common.Logging.dll</HintPath>
     </Reference>
@@ -97,6 +98,10 @@
     <ProjectReference Include="..\AutomatedMt4.DataAccess\AutomatedMt4.DataAccess.csproj">
       <Project>{8D0076C3-3615-4977-BA57-70AED3D80535}</Project>
       <Name>AutomatedMt4.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AutomatedMt4.DI\AutomatedMt4.DI.csproj">
+      <Project>{7F37A7E9-49C2-4C34-A6CB-39441069B041}</Project>
+      <Name>AutomatedMt4.DI</Name>
     </ProjectReference>
     <ProjectReference Include="..\AutomatedMT4.Scheduler\AutomatedMT4.Scheduler.csproj">
       <Project>{583F7EED-4AAF-44D5-B67D-16AFCED5C24C}</Project>

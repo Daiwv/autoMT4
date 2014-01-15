@@ -72,6 +72,10 @@
       <Project>{8D0076C3-3615-4977-BA57-70AED3D80535}</Project>
       <Name>AutomatedMt4.DataAccess</Name>
     </ProjectReference>
+    <ProjectReference Include="..\AutomatedMT4.Scheduler\AutomatedMT4.Scheduler.csproj">
+      <Project>{583F7EED-4AAF-44D5-B67D-16AFCED5C24C}</Project>
+      <Name>AutomatedMT4.Scheduler</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
